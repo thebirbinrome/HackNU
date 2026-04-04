@@ -1,0 +1,595 @@
+2026-04-04 13:05:56,848 [INFO] ============================================================
+2026-04-04 13:05:56,849 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 13:05:56,849 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 13:05:56,850 [INFO] ============================================================
+2026-04-04 13:05:56,850 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 13:05:56,850 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 13:06:23,809 [INFO]     -> 250 unique posts from r/ClaudeAI top [all]
+2026-04-04 13:06:23,810 [INFO]   Running total: 250 unique posts
+2026-04-04 13:06:23,811 [INFO]   Scraping r/ClaudeAI top [year]...
+2026-04-04 13:06:51,284 [INFO]     -> 30 unique posts from r/ClaudeAI top [year]
+2026-04-04 13:06:51,285 [INFO]   Running total: 280 unique posts
+2026-04-04 13:06:51,286 [INFO]   Scraping r/ClaudeAI top [month]...
+2026-04-04 13:07:21,556 [INFO]     -> 170 unique posts from r/ClaudeAI top [month]
+2026-04-04 13:07:21,556 [INFO]   Running total: 450 unique posts
+2026-04-04 13:07:21,557 [INFO]   Scraping r/ChatGPT top [all]...
+2026-04-04 13:07:48,518 [INFO]     -> 250 unique posts from r/ChatGPT top [all]
+2026-04-04 13:07:48,519 [INFO]   Running total: 700 unique posts
+2026-04-04 13:07:48,520 [INFO]   Scraping r/ChatGPT top [year]...
+2026-04-04 13:08:14,441 [INFO]     -> 169 unique posts from r/ChatGPT top [year]
+2026-04-04 13:08:14,442 [INFO]   Running total: 869 unique posts
+2026-04-04 13:08:14,443 [INFO]   Scraping r/ChatGPT top [month]...
+2026-04-04 13:08:39,954 [INFO]     -> 237 unique posts from r/ChatGPT top [month]
+2026-04-04 13:08:39,955 [INFO]   Running total: 1106 unique posts
+2026-04-04 13:08:39,955 [INFO]   Scraping r/artificial top [all]...
+2026-04-04 13:09:06,557 [INFO]     -> 250 unique posts from r/artificial top [all]
+2026-04-04 13:09:06,557 [INFO]   Running total: 1356 unique posts
+2026-04-04 13:09:06,558 [INFO]   Scraping r/artificial top [year]...
+2026-04-04 13:09:31,392 [INFO]     -> 141 unique posts from r/artificial top [year]
+2026-04-04 13:09:31,392 [INFO]   Running total: 1497 unique posts
+2026-04-04 13:09:31,393 [INFO]   Scraping r/artificial top [month]...
+2026-04-04 13:09:56,711 [INFO]     -> 242 unique posts from r/artificial top [month]
+2026-04-04 13:09:56,712 [INFO]   Running total: 1739 unique posts
+2026-04-04 13:09:56,712 [INFO]   Scraping r/LocalLLaMA top [all]...
+2026-04-04 13:10:22,680 [INFO]     -> 250 unique posts from r/LocalLLaMA top [all]
+2026-04-04 13:10:22,681 [INFO]   Running total: 1989 unique posts
+2026-04-04 13:10:22,682 [INFO]   Scraping r/LocalLLaMA top [year]...
+2026-04-04 13:10:50,091 [INFO]     -> 108 unique posts from r/LocalLLaMA top [year]
+2026-04-04 13:10:50,092 [INFO]   Running total: 2097 unique posts
+2026-04-04 13:10:50,092 [INFO]   Scraping r/LocalLLaMA top [month]...
+2026-04-04 13:11:20,498 [INFO]     -> 217 unique posts from r/LocalLLaMA top [month]
+2026-04-04 13:11:20,499 [INFO]   Running total: 2314 unique posts
+2026-04-04 13:11:20,499 [INFO]   Scraping r/singularity top [all]...
+2026-04-04 13:11:48,374 [INFO]     -> 250 unique posts from r/singularity top [all]
+2026-04-04 13:11:48,375 [INFO]   Running total: 2564 unique posts
+2026-04-04 13:11:48,375 [INFO]   Scraping r/singularity top [year]...
+2026-04-04 13:12:19,350 [INFO]     -> 111 unique posts from r/singularity top [year]
+2026-04-04 13:12:19,351 [INFO]   Running total: 2675 unique posts
+2026-04-04 13:12:19,352 [INFO]   Scraping r/singularity top [month]...
+2026-04-04 13:12:46,949 [INFO]     -> 227 unique posts from r/singularity top [month]
+2026-04-04 13:12:46,950 [INFO]   Running total: 2902 unique posts
+2026-04-04 13:12:46,951 [INFO] 
+[Phase 2] Scraping search results for 6 queries...
+2026-04-04 13:12:46,952 [INFO]   Searching r/ClaudeAI for 'Claude'...
+2026-04-04 13:13:13,944 [INFO]     sort=relevance -> 81 new (total: 2983)
+2026-04-04 13:13:42,470 [INFO]     sort=new -> 245 new (total: 3228)
+2026-04-04 13:13:42,471 [INFO]   Searching r/ClaudeAI for 'Claude AI'...
+2026-04-04 13:14:29,774 [INFO]     sort=relevance -> 173 new (total: 3401)
+2026-04-04 13:14:56,184 [INFO]     sort=new -> 153 new (total: 3554)
+2026-04-04 13:14:56,185 [INFO]   Searching r/ClaudeAI for 'Claude vs ChatGPT'...
+2026-04-04 13:15:03,736 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:15:07,764 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:15:13,813 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:15:21,815 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:15:21,817 [INFO]     sort=relevance -> 42 new (total: 3596)
+2026-04-04 13:15:24,151 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:15:28,208 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:15:34,658 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:15:42,659 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:15:42,661 [INFO]     sort=new -> 0 new (total: 3596)
+2026-04-04 13:15:42,662 [INFO]   Searching r/ClaudeAI for 'Claude Code'...
+2026-04-04 13:15:45,368 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:15:49,658 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:15:55,782 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:16:03,783 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:16:03,785 [INFO]     sort=relevance -> 0 new (total: 3596)
+2026-04-04 13:16:05,856 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:16:09,918 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:16:16,015 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:16:17,755 [INFO] 
+Interrupted by user. Partial data (if any) is already written.
+2026-04-04 13:20:07,149 [INFO] ============================================================
+2026-04-04 13:20:07,150 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 13:20:07,150 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 13:20:07,150 [INFO] ============================================================
+2026-04-04 13:20:07,150 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 13:20:07,151 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 13:20:17,891 [INFO] 
+Interrupted by user. Partial data (if any) is already written.
+2026-04-04 13:20:54,936 [INFO] ============================================================
+2026-04-04 13:20:54,937 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 13:20:54,938 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 13:20:54,938 [INFO] ============================================================
+2026-04-04 13:20:54,938 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 13:20:54,939 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 13:21:22,026 [INFO] 
+Interrupted by user. Partial data (if any) is already written.
+2026-04-04 13:22:15,744 [INFO] ============================================================
+2026-04-04 13:22:15,745 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 13:22:15,745 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 13:22:15,745 [INFO] ============================================================
+2026-04-04 13:22:15,745 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 13:22:15,746 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 13:23:00,043 [INFO]     -> 250 unique posts from r/ClaudeAI top [all]
+2026-04-04 13:23:00,043 [INFO]   Running total: 250 unique posts
+2026-04-04 13:23:00,044 [INFO]   Scraping r/ClaudeAI top [year]...
+2026-04-04 13:23:44,739 [INFO]     -> 30 unique posts from r/ClaudeAI top [year]
+2026-04-04 13:23:44,740 [INFO]   Running total: 280 unique posts
+2026-04-04 13:23:44,740 [INFO]   Scraping r/ClaudeAI top [month]...
+2026-04-04 13:24:29,565 [INFO]     -> 170 unique posts from r/ClaudeAI top [month]
+2026-04-04 13:24:29,566 [INFO]   Running total: 450 unique posts
+2026-04-04 13:24:29,566 [INFO]   Scraping r/ChatGPT top [all]...
+2026-04-04 13:25:15,704 [INFO]     -> 250 unique posts from r/ChatGPT top [all]
+2026-04-04 13:25:15,705 [INFO]   Running total: 700 unique posts
+2026-04-04 13:25:15,708 [INFO]   Scraping r/ChatGPT top [year]...
+2026-04-04 13:25:59,796 [INFO]     -> 169 unique posts from r/ChatGPT top [year]
+2026-04-04 13:25:59,796 [INFO]   Running total: 869 unique posts
+2026-04-04 13:25:59,797 [INFO]   Scraping r/ChatGPT top [month]...
+2026-04-04 13:26:43,245 [INFO]     -> 237 unique posts from r/ChatGPT top [month]
+2026-04-04 13:26:43,246 [INFO]   Running total: 1106 unique posts
+2026-04-04 13:26:43,246 [INFO]   Scraping r/artificial top [all]...
+2026-04-04 13:27:26,850 [INFO]     -> 250 unique posts from r/artificial top [all]
+2026-04-04 13:27:26,851 [INFO]   Running total: 1356 unique posts
+2026-04-04 13:27:26,851 [INFO]   Scraping r/artificial top [year]...
+2026-04-04 13:28:11,526 [INFO]     -> 141 unique posts from r/artificial top [year]
+2026-04-04 13:28:11,527 [INFO]   Running total: 1497 unique posts
+2026-04-04 13:28:11,528 [INFO]   Scraping r/artificial top [month]...
+2026-04-04 13:29:02,839 [INFO]     -> 242 unique posts from r/artificial top [month]
+2026-04-04 13:29:02,840 [INFO]   Running total: 1739 unique posts
+2026-04-04 13:29:02,840 [INFO]   Scraping r/LocalLLaMA top [all]...
+2026-04-04 13:29:15,267 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:29:21,219 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:29:28,920 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:29:36,922 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/top.json after 3 attempts.
+2026-04-04 13:29:36,925 [INFO]     -> 50 unique posts from r/LocalLLaMA top [all]
+2026-04-04 13:29:36,926 [INFO]   Running total: 1789 unique posts
+2026-04-04 13:29:36,927 [INFO]   Scraping r/LocalLLaMA top [year]...
+2026-04-04 13:29:40,680 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:29:46,495 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:29:54,410 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:30:02,412 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/top.json after 3 attempts.
+2026-04-04 13:30:02,415 [INFO]     -> 0 unique posts from r/LocalLLaMA top [year]
+2026-04-04 13:30:02,415 [INFO]   Running total: 1789 unique posts
+2026-04-04 13:30:02,416 [INFO]   Scraping r/LocalLLaMA top [month]...
+2026-04-04 13:30:47,290 [INFO]     -> 246 unique posts from r/LocalLLaMA top [month]
+2026-04-04 13:30:47,291 [INFO]   Running total: 2035 unique posts
+2026-04-04 13:30:47,292 [INFO]   Scraping r/singularity top [all]...
+2026-04-04 13:31:32,008 [INFO]     -> 250 unique posts from r/singularity top [all]
+2026-04-04 13:31:32,009 [INFO]   Running total: 2285 unique posts
+2026-04-04 13:31:32,009 [INFO]   Scraping r/singularity top [year]...
+2026-04-04 13:32:16,570 [INFO]     -> 111 unique posts from r/singularity top [year]
+2026-04-04 13:32:16,571 [INFO]   Running total: 2396 unique posts
+2026-04-04 13:32:16,572 [INFO]   Scraping r/singularity top [month]...
+2026-04-04 13:33:00,737 [INFO]     -> 227 unique posts from r/singularity top [month]
+2026-04-04 13:33:00,738 [INFO]   Running total: 2623 unique posts
+2026-04-04 13:33:00,739 [INFO] 
+[Phase 2] Scraping search results for 6 queries...
+2026-04-04 13:33:00,739 [INFO]   Searching r/ClaudeAI for 'Claude'...
+2026-04-04 13:33:45,173 [INFO]     sort=relevance -> 81 new (total: 2704)
+2026-04-04 13:34:28,920 [INFO]     sort=new -> 245 new (total: 2949)
+2026-04-04 13:34:28,921 [INFO]   Searching r/ClaudeAI for 'Claude AI'...
+2026-04-04 13:35:15,298 [INFO]     sort=relevance -> 173 new (total: 3122)
+2026-04-04 13:36:00,175 [INFO]     sort=new -> 154 new (total: 3276)
+2026-04-04 13:36:00,176 [INFO]   Searching r/ClaudeAI for 'Claude vs ChatGPT'...
+2026-04-04 13:36:44,240 [INFO]     sort=relevance -> 230 new (total: 3506)
+2026-04-04 13:37:29,149 [INFO]     sort=new -> 161 new (total: 3667)
+2026-04-04 13:37:29,150 [INFO]   Searching r/ClaudeAI for 'Claude Code'...
+2026-04-04 13:37:33,018 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:37:38,880 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:37:48,725 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:37:56,728 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:37:56,731 [INFO]     sort=relevance -> 0 new (total: 3667)
+2026-04-04 13:38:00,692 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:38:06,547 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:38:14,491 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:38:22,493 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:38:22,496 [INFO]     sort=new -> 0 new (total: 3667)
+2026-04-04 13:38:22,496 [INFO]   Searching r/ClaudeAI for 'Anthropic'...
+2026-04-04 13:38:26,344 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:38:32,133 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:38:39,901 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:38:47,903 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:38:47,906 [INFO]     sort=relevance -> 0 new (total: 3667)
+2026-04-04 13:38:51,824 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:38:57,889 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:39:05,790 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:39:13,792 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:39:13,795 [INFO]     sort=new -> 0 new (total: 3667)
+2026-04-04 13:39:13,796 [INFO]   Searching r/ClaudeAI for '#QuitGPT'...
+2026-04-04 13:39:19,155 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:39:25,452 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:39:33,564 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:39:41,565 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:39:41,569 [INFO]     sort=relevance -> 0 new (total: 3667)
+2026-04-04 13:39:45,657 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 13:39:51,718 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 13:40:00,877 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 13:40:08,879 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 13:40:08,882 [INFO]     sort=new -> 0 new (total: 3667)
+2026-04-04 13:40:08,883 [INFO]   Searching r/ChatGPT for 'Claude'...
+2026-04-04 13:40:53,109 [INFO]     sort=relevance -> 218 new (total: 3885)
+2026-04-04 13:41:38,651 [INFO]     sort=new -> 204 new (total: 4089)
+2026-04-04 13:41:38,652 [INFO]   Searching r/ChatGPT for 'Claude AI'...
+2026-04-04 13:42:23,130 [INFO]     sort=relevance -> 185 new (total: 4274)
+2026-04-04 13:43:06,645 [INFO]     sort=new -> 87 new (total: 4361)
+2026-04-04 13:43:06,645 [INFO]   Searching r/ChatGPT for 'Claude vs ChatGPT'...
+2026-04-04 13:43:50,915 [INFO]     sort=relevance -> 166 new (total: 4527)
+2026-04-04 13:44:35,095 [INFO]     sort=new -> 52 new (total: 4579)
+2026-04-04 13:44:35,096 [INFO]   Searching r/ChatGPT for 'Claude Code'...
+2026-04-04 13:45:19,401 [INFO]     sort=relevance -> 129 new (total: 4708)
+2026-04-04 13:46:04,093 [INFO]     sort=new -> 81 new (total: 4789)
+2026-04-04 13:46:04,093 [INFO]   Searching r/ChatGPT for 'Anthropic'...
+2026-04-04 13:47:12,366 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Read timed out. (read timeout=15). Waiting 2s (attempt 1/3).
+2026-04-04 13:47:17,376 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=Anthropic&sort=relevance&restrict_sr=true&limit=25&after=t3_1nuk6qb (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:47:24,381 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=Anthropic&sort=relevance&restrict_sr=true&limit=25&after=t3_1nuk6qb (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:47:32,383 [ERROR] Giving up on https://www.reddit.com/r/ChatGPT/search.json after 3 attempts.
+2026-04-04 13:47:32,383 [INFO]     sort=relevance -> 125 new (total: 4914)
+2026-04-04 13:47:35,386 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:47:40,390 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:47:47,396 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:47:55,398 [ERROR] Giving up on https://www.reddit.com/r/ChatGPT/search.json after 3 attempts.
+2026-04-04 13:47:55,399 [INFO]     sort=new -> 0 new (total: 4914)
+2026-04-04 13:47:55,399 [INFO]   Searching r/ChatGPT for '#QuitGPT'...
+2026-04-04 13:47:58,405 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:48:03,409 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:48:10,414 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:48:18,416 [ERROR] Giving up on https://www.reddit.com/r/ChatGPT/search.json after 3 attempts.
+2026-04-04 13:48:18,416 [INFO]     sort=relevance -> 0 new (total: 4914)
+2026-04-04 13:48:21,430 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:48:26,434 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:48:33,438 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ChatGPT/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:48:41,439 [ERROR] Giving up on https://www.reddit.com/r/ChatGPT/search.json after 3 attempts.
+2026-04-04 13:48:41,440 [INFO]     sort=new -> 0 new (total: 4914)
+2026-04-04 13:48:41,441 [INFO]   Searching r/artificial for 'Claude'...
+2026-04-04 13:48:44,446 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:48:49,452 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:48:56,458 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:49:04,460 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 13:49:04,460 [INFO]     sort=relevance -> 0 new (total: 4914)
+2026-04-04 13:49:07,466 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:49:12,472 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:49:19,477 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:55:29,839 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 13:55:29,854 [INFO]     sort=new -> 0 new (total: 4914)
+2026-04-04 13:55:29,871 [INFO]   Searching r/artificial for 'Claude AI'...
+2026-04-04 13:56:17,493 [INFO]     sort=relevance -> 213 new (total: 5127)
+2026-04-04 13:57:10,667 [INFO]     sort=new -> 71 new (total: 5198)
+2026-04-04 13:57:10,668 [INFO]   Searching r/artificial for 'Claude vs ChatGPT'...
+2026-04-04 13:58:30,680 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Read timed out. (read timeout=15). Waiting 2s (attempt 1/3).
+2026-04-04 13:58:47,042 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25&after=t3_1kl1577 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:58:54,047 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25&after=t3_1kl1577 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:59:02,049 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 13:59:02,049 [INFO]     sort=relevance -> 90 new (total: 5288)
+2026-04-04 13:59:05,055 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+vs+ChatGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:59:10,059 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+vs+ChatGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:59:17,066 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+vs+ChatGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:59:25,068 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 13:59:25,068 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 13:59:25,069 [INFO]   Searching r/artificial for 'Claude Code'...
+2026-04-04 13:59:28,075 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:59:33,080 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 13:59:40,085 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 13:59:48,087 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 13:59:48,088 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 13:59:51,093 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 13:59:56,099 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 14:00:03,105 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Claude+Code&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 14:00:11,106 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 14:00:11,108 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 14:00:11,108 [INFO]   Searching r/artificial for 'Anthropic'...
+2026-04-04 14:00:14,113 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 14:00:19,119 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 14:00:26,141 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 14:00:34,142 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 14:00:34,143 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 14:00:37,147 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 14:00:42,154 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 14:59:33,692 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=Anthropic&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 14:59:41,692 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 14:59:41,692 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 14:59:41,693 [INFO]   Searching r/artificial for '#QuitGPT'...
+2026-04-04 14:59:44,698 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 14:59:49,703 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 14:59:56,706 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:00:04,707 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 15:00:04,707 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 15:00:07,711 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:00:12,717 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:00:19,722 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/search.json?q=%23QuitGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:00:27,724 [ERROR] Giving up on https://www.reddit.com/r/artificial/search.json after 3 attempts.
+2026-04-04 15:00:27,725 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 15:00:27,725 [INFO]   Searching r/LocalLLaMA for 'Claude'...
+2026-04-04 15:00:30,750 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:00:35,755 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:00:42,761 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:00:50,763 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/search.json after 3 attempts.
+2026-04-04 15:00:50,764 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 15:00:53,769 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:00:58,775 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:01:05,780 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:01:13,781 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/search.json after 3 attempts.
+2026-04-04 15:01:13,782 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 15:01:13,782 [INFO]   Searching r/LocalLLaMA for 'Claude AI'...
+2026-04-04 15:01:16,805 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:01:21,821 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:01:28,827 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:01:36,828 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/search.json after 3 attempts.
+2026-04-04 15:01:36,829 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 15:01:39,833 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:01:44,836 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:01:51,840 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+AI&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:01:59,842 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/search.json after 3 attempts.
+2026-04-04 15:01:59,843 [INFO]     sort=new -> 0 new (total: 5288)
+2026-04-04 15:01:59,843 [INFO]   Searching r/LocalLLaMA for 'Claude vs ChatGPT'...
+2026-04-04 15:02:02,846 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:02:07,851 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:02:14,857 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 8s (attempt 3/3).
+2026-04-04 15:02:22,858 [ERROR] Giving up on https://www.reddit.com/r/LocalLLaMA/search.json after 3 attempts.
+2026-04-04 15:02:22,860 [INFO]     sort=relevance -> 0 new (total: 5288)
+2026-04-04 15:02:25,862 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+vs+ChatGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 2s (attempt 1/3).
+2026-04-04 15:02:30,866 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LocalLLaMA/search.json?q=Claude+vs+ChatGPT&sort=new&restrict_sr=true&limit=25 (Caused by NameResolutionError("HTTPSConnection(host='www.reddit.com', port=443): Failed to resolve 'www.reddit.com' ([Errno 11001] getaddrinfo failed)")). Waiting 4s (attempt 2/3).
+2026-04-04 15:03:24,454 [INFO]     sort=new -> 240 new (total: 5528)
+2026-04-04 15:03:24,454 [INFO]   Searching r/LocalLLaMA for 'Claude Code'...
+2026-04-04 15:04:14,072 [INFO]     sort=relevance -> 200 new (total: 5728)
+2026-04-04 15:05:00,971 [INFO]     sort=new -> 130 new (total: 5858)
+2026-04-04 15:05:00,972 [INFO]   Searching r/LocalLLaMA for 'Anthropic'...
+2026-04-04 15:05:31,170 [INFO] 
+Interrupted by user. Partial data (if any) is already written.
+2026-04-04 15:05:54,233 [INFO] No existing reddit_claude_data.csv found — starting fresh.
+2026-04-04 15:05:54,236 [INFO] ============================================================
+2026-04-04 15:05:54,236 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 15:05:54,237 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 15:05:54,237 [INFO] ============================================================
+2026-04-04 15:05:54,237 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 15:05:54,237 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 15:06:42,992 [INFO]     -> 250 unique posts from r/ClaudeAI top [all]
+2026-04-04 15:06:42,993 [INFO]   Running total: 250 unique posts
+2026-04-04 15:06:42,994 [INFO]   Scraping r/ClaudeAI top [year]...
+2026-04-04 15:07:28,343 [INFO]     -> 27 unique posts from r/ClaudeAI top [year]
+2026-04-04 15:07:28,344 [INFO]   Running total: 277 unique posts
+2026-04-04 15:07:28,345 [INFO]   Scraping r/ClaudeAI top [month]...
+2026-04-04 15:08:13,242 [INFO]     -> 172 unique posts from r/ClaudeAI top [month]
+2026-04-04 15:08:13,242 [INFO]   Running total: 449 unique posts
+2026-04-04 15:08:13,243 [INFO]   Scraping r/ChatGPT top [all]...
+2026-04-04 15:08:58,692 [INFO]     -> 250 unique posts from r/ChatGPT top [all]
+2026-04-04 15:08:58,693 [INFO]   Running total: 699 unique posts
+2026-04-04 15:08:58,694 [INFO]   Scraping r/ChatGPT top [year]...
+2026-04-04 15:09:55,214 [INFO]     -> 144 unique posts from r/ChatGPT top [year]
+2026-04-04 15:09:55,215 [INFO]   Running total: 843 unique posts
+2026-04-04 15:09:55,216 [INFO]   Scraping r/ChatGPT top [month]...
+2026-04-04 15:10:39,688 [INFO]     -> 239 unique posts from r/ChatGPT top [month]
+2026-04-04 15:10:39,689 [INFO]   Running total: 1082 unique posts
+2026-04-04 15:10:39,690 [INFO]   Scraping r/artificial top [all]...
+2026-04-04 15:11:25,705 [INFO]     -> 250 unique posts from r/artificial top [all]
+2026-04-04 15:11:25,706 [INFO]   Running total: 1332 unique posts
+2026-04-04 15:11:25,706 [INFO]   Scraping r/artificial top [year]...
+2026-04-04 15:12:11,024 [INFO]     -> 141 unique posts from r/artificial top [year]
+2026-04-04 15:12:11,026 [INFO]   Running total: 1473 unique posts
+2026-04-04 15:12:11,027 [INFO]   Scraping r/artificial top [month]...
+2026-04-04 15:12:56,124 [INFO]     -> 242 unique posts from r/artificial top [month]
+2026-04-04 15:12:56,125 [INFO]   Running total: 1715 unique posts
+2026-04-04 15:12:56,125 [INFO]   Scraping r/LocalLLaMA top [all]...
+2026-04-04 15:13:40,173 [INFO]     -> 250 unique posts from r/LocalLLaMA top [all]
+2026-04-04 15:13:40,174 [INFO]   Running total: 1965 unique posts
+2026-04-04 15:13:40,175 [INFO]   Scraping r/LocalLLaMA top [year]...
+2026-04-04 15:14:25,040 [INFO]     -> 108 unique posts from r/LocalLLaMA top [year]
+2026-04-04 15:14:25,041 [INFO]   Running total: 2073 unique posts
+2026-04-04 15:14:25,042 [INFO]   Scraping r/LocalLLaMA top [month]...
+2026-04-04 15:15:10,990 [INFO]     -> 216 unique posts from r/LocalLLaMA top [month]
+2026-04-04 15:15:10,991 [INFO]   Running total: 2289 unique posts
+2026-04-04 15:15:10,992 [INFO]   Scraping r/singularity top [all]...
+2026-04-04 15:15:57,162 [INFO]     -> 250 unique posts from r/singularity top [all]
+2026-04-04 15:15:57,163 [INFO]   Running total: 2539 unique posts
+2026-04-04 15:15:57,164 [INFO]   Scraping r/singularity top [year]...
+2026-04-04 15:16:47,912 [INFO]     -> 111 unique posts from r/singularity top [year]
+2026-04-04 15:16:47,913 [INFO]   Running total: 2650 unique posts
+2026-04-04 15:16:47,913 [INFO]   Scraping r/singularity top [month]...
+2026-04-04 15:17:38,440 [INFO]     -> 227 unique posts from r/singularity top [month]
+2026-04-04 15:17:38,441 [INFO]   Running total: 2877 unique posts
+2026-04-04 15:17:38,442 [INFO] 
+[Phase 2] Scraping search results for 6 queries...
+2026-04-04 15:17:38,442 [INFO]   Searching r/ClaudeAI for 'Claude'...
+2026-04-04 15:17:47,096 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:17:53,070 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 15:18:01,004 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 15:18:09,006 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 15:18:09,009 [INFO]     sort=relevance -> 1 new (total: 2878)
+2026-04-04 15:18:13,049 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:18:18,994 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 15:18:27,171 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 15:18:35,173 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 15:18:35,176 [INFO]     sort=new -> 0 new (total: 2878)
+2026-04-04 15:18:35,177 [INFO]   Searching r/ClaudeAI for 'Claude AI'...
+2026-04-04 15:18:39,003 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:18:44,986 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 15:18:52,967 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 15:19:00,969 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 15:19:00,973 [INFO]     sort=relevance -> 0 new (total: 2878)
+2026-04-04 15:19:04,833 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:19:10,854 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 15:19:18,999 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 15:19:27,000 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 15:19:27,003 [INFO]     sort=new -> 0 new (total: 2878)
+2026-04-04 15:19:27,003 [INFO]   Searching r/ClaudeAI for 'Claude vs ChatGPT'...
+2026-04-04 15:19:31,073 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:19:37,203 [WARNING] Rate limited (HTTP 429). Waiting 4s before retry 2/3.
+2026-04-04 15:19:45,447 [WARNING] Rate limited (HTTP 429). Waiting 8s before retry 3/3.
+2026-04-04 15:19:53,448 [ERROR] Giving up on https://www.reddit.com/r/ClaudeAI/search.json after 3 attempts.
+2026-04-04 15:19:53,451 [INFO]     sort=relevance -> 0 new (total: 2878)
+2026-04-04 15:19:57,463 [WARNING] Rate limited (HTTP 429). Waiting 2s before retry 1/3.
+2026-04-04 15:20:46,650 [INFO]     sort=new -> 241 new (total: 3119)
+2026-04-04 15:20:46,651 [INFO]   Searching r/ClaudeAI for 'Claude Code'...
+2026-04-04 15:21:06,721 [INFO] 
+Interrupted by user. Partial data (if any) is already written.
+2026-04-04 15:21:09,953 [INFO] No existing reddit_claude_data.csv found — starting fresh.
+2026-04-04 15:21:09,954 [INFO] ============================================================
+2026-04-04 15:21:09,954 [INFO] Reddit Claude AI Scraper — starting
+2026-04-04 15:21:09,954 [INFO] Targets: r/ClaudeAI, r/ChatGPT, r/artificial, r/LocalLLaMA, r/singularity
+2026-04-04 15:21:09,955 [INFO] ============================================================
+2026-04-04 15:21:09,955 [INFO] 
+[Phase 1] Scraping top posts across time filters...
+2026-04-04 15:21:09,955 [INFO]   Scraping r/ClaudeAI top [all]...
+2026-04-04 15:22:16,502 [INFO]     -> 250 unique posts from r/ClaudeAI top [all]
+2026-04-04 15:22:16,504 [INFO]   Running total: 250 unique posts
+2026-04-04 15:22:16,505 [INFO]   Scraping r/ClaudeAI top [year]...
+2026-04-04 15:22:58,360 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Read timed out.. Waiting 2s (attempt 1/3).
+2026-04-04 15:23:45,475 [INFO]     -> 27 unique posts from r/ClaudeAI top [year]
+2026-04-04 15:23:45,476 [INFO]   Running total: 277 unique posts
+2026-04-04 15:23:45,476 [INFO]   Scraping r/ClaudeAI top [month]...
+2026-04-04 15:24:50,147 [INFO]     -> 172 unique posts from r/ClaudeAI top [month]
+2026-04-04 15:24:50,148 [INFO]   Running total: 449 unique posts
+2026-04-04 15:24:50,148 [INFO]   Scraping r/ChatGPT top [all]...
+2026-04-04 15:25:56,921 [INFO]     -> 250 unique posts from r/ChatGPT top [all]
+2026-04-04 15:25:56,922 [INFO]   Running total: 699 unique posts
+2026-04-04 15:25:56,922 [INFO]   Scraping r/ChatGPT top [year]...
+2026-04-04 15:27:01,058 [INFO]     -> 169 unique posts from r/ChatGPT top [year]
+2026-04-04 15:27:01,059 [INFO]   Running total: 868 unique posts
+2026-04-04 15:27:01,059 [INFO]   Scraping r/ChatGPT top [month]...
+2026-04-04 15:51:15,481 [INFO]     -> 237 unique posts from r/ChatGPT top [month]
+2026-04-04 15:51:15,481 [INFO]   Running total: 1105 unique posts
+2026-04-04 15:51:15,481 [INFO]   Scraping r/artificial top [all]...
+2026-04-04 15:52:27,811 [INFO]     -> 250 unique posts from r/artificial top [all]
+2026-04-04 15:52:27,812 [INFO]   Running total: 1355 unique posts
+2026-04-04 15:52:27,812 [INFO]   Scraping r/artificial top [year]...
+2026-04-04 15:54:09,926 [INFO]     -> 141 unique posts from r/artificial top [year]
+2026-04-04 15:54:09,926 [INFO]   Running total: 1496 unique posts
+2026-04-04 15:54:09,927 [INFO]   Scraping r/artificial top [month]...
+2026-04-04 15:55:13,962 [INFO]     -> 242 unique posts from r/artificial top [month]
+2026-04-04 15:55:13,963 [INFO]   Running total: 1738 unique posts
+2026-04-04 15:55:13,964 [INFO]   Scraping r/LocalLLaMA top [all]...
+2026-04-04 15:56:19,831 [INFO]     -> 250 unique posts from r/LocalLLaMA top [all]
+2026-04-04 15:56:19,832 [INFO]   Running total: 1988 unique posts
+2026-04-04 15:56:19,832 [INFO]   Scraping r/LocalLLaMA top [year]...
+2026-04-04 15:57:28,741 [INFO]     -> 108 unique posts from r/LocalLLaMA top [year]
+2026-04-04 15:57:28,742 [INFO]   Running total: 2096 unique posts
+2026-04-04 15:57:28,743 [INFO]   Scraping r/LocalLLaMA top [month]...
+2026-04-04 15:58:37,240 [INFO]     -> 216 unique posts from r/LocalLLaMA top [month]
+2026-04-04 15:58:37,241 [INFO]   Running total: 2312 unique posts
+2026-04-04 15:58:37,241 [INFO]   Scraping r/singularity top [all]...
+2026-04-04 15:59:43,700 [INFO]     -> 250 unique posts from r/singularity top [all]
+2026-04-04 15:59:43,700 [INFO]   Running total: 2562 unique posts
+2026-04-04 15:59:43,701 [INFO]   Scraping r/singularity top [year]...
+2026-04-04 16:00:59,707 [INFO]     -> 111 unique posts from r/singularity top [year]
+2026-04-04 16:00:59,708 [INFO]   Running total: 2673 unique posts
+2026-04-04 16:00:59,708 [INFO]   Scraping r/singularity top [month]...
+2026-04-04 16:02:06,666 [INFO]     -> 227 unique posts from r/singularity top [month]
+2026-04-04 16:02:06,666 [INFO]   Running total: 2900 unique posts
+2026-04-04 16:02:06,668 [INFO] 
+[Phase 2] Scraping search results for 6 queries...
+2026-04-04 16:02:06,668 [INFO]   Searching r/ClaudeAI for 'Claude'...
+2026-04-04 16:03:20,316 [INFO]     sort=relevance -> 82 new (total: 2982)
+2026-04-04 16:04:27,389 [INFO]     sort=new -> 245 new (total: 3227)
+2026-04-04 16:04:27,390 [INFO]   Searching r/ClaudeAI for 'Claude AI'...
+2026-04-04 16:05:42,409 [INFO]     sort=relevance -> 173 new (total: 3400)
+2026-04-04 16:06:48,169 [INFO]     sort=new -> 152 new (total: 3552)
+2026-04-04 16:06:48,170 [INFO]   Searching r/ClaudeAI for 'Claude vs ChatGPT'...
+2026-04-04 16:08:00,088 [WARNING] Request error: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ClaudeAI/search.json?q=Claude+vs+ChatGPT&sort=relevance&restrict_sr=true&limit=25&after=t3_1qx9n9w (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reddit.com', port=443) at 0x24094562f30>, 'Connection to www.reddit.com timed out. (connect timeout=15)')). Waiting 2s (attempt 1/3).
+2026-04-04 16:09:00,827 [INFO]     sort=relevance -> 230 new (total: 3782)
+2026-04-04 16:10:34,510 [INFO]     sort=new -> 165 new (total: 3947)
+2026-04-04 16:10:34,511 [INFO]   Searching r/ClaudeAI for 'Claude Code'...
+2026-04-04 16:11:46,010 [INFO]     sort=relevance -> 129 new (total: 4076)
+2026-04-04 16:12:52,238 [INFO]     sort=new -> 48 new (total: 4124)
+2026-04-04 16:12:52,239 [INFO]   Searching r/ClaudeAI for 'Anthropic'...
+2026-04-04 16:13:57,661 [INFO]     sort=relevance -> 169 new (total: 4293)
+2026-04-04 16:15:03,663 [INFO]     sort=new -> 139 new (total: 4432)
+2026-04-04 16:15:03,664 [INFO]   Searching r/ClaudeAI for '#QuitGPT'...
+2026-04-04 16:16:15,422 [INFO]     sort=relevance -> 209 new (total: 4641)
+2026-04-04 16:17:30,052 [INFO]     sort=new -> 17 new (total: 4658)
+2026-04-04 16:17:30,053 [INFO]   Searching r/ChatGPT for 'Claude'...
+2026-04-04 16:18:54,189 [INFO]     sort=relevance -> 218 new (total: 4876)
+2026-04-04 16:20:11,581 [INFO]     sort=new -> 205 new (total: 5081)
+2026-04-04 16:20:11,582 [INFO]   Searching r/ChatGPT for 'Claude AI'...
+2026-04-04 16:21:25,518 [INFO]     sort=relevance -> 185 new (total: 5266)
+2026-04-04 16:22:46,632 [INFO]     sort=new -> 87 new (total: 5353)
+2026-04-04 16:22:46,632 [INFO]   Searching r/ChatGPT for 'Claude vs ChatGPT'...
+2026-04-04 16:24:00,937 [INFO]     sort=relevance -> 166 new (total: 5519)
+2026-04-04 16:25:06,035 [INFO]     sort=new -> 52 new (total: 5571)
+2026-04-04 16:25:06,036 [INFO]   Searching r/ChatGPT for 'Claude Code'...
+2026-04-04 16:26:13,003 [INFO]     sort=relevance -> 129 new (total: 5700)
+2026-04-04 16:27:20,888 [INFO]     sort=new -> 81 new (total: 5781)
+2026-04-04 16:27:20,889 [INFO]   Searching r/ChatGPT for 'Anthropic'...
+2026-04-04 16:28:39,912 [INFO]     sort=relevance -> 183 new (total: 5964)
+2026-04-04 16:29:49,454 [INFO]     sort=new -> 92 new (total: 6056)
+2026-04-04 16:29:49,455 [INFO]   Searching r/ChatGPT for '#QuitGPT'...
+2026-04-04 16:30:54,932 [INFO]     sort=relevance -> 214 new (total: 6270)
+2026-04-04 16:32:02,862 [INFO]     sort=new -> 188 new (total: 6458)
+2026-04-04 16:32:02,863 [INFO]   Searching r/artificial for 'Claude'...
+2026-04-04 16:33:09,992 [INFO]     sort=relevance -> 194 new (total: 6652)
+2026-04-04 16:34:16,218 [INFO]     sort=new -> 123 new (total: 6775)
+2026-04-04 16:34:16,218 [INFO]   Searching r/artificial for 'Claude AI'...
+2026-04-04 16:35:22,504 [INFO]     sort=relevance -> 37 new (total: 6812)
+2026-04-04 16:36:36,965 [INFO]     sort=new -> 34 new (total: 6846)
+2026-04-04 16:36:36,966 [INFO]   Searching r/artificial for 'Claude vs ChatGPT'...
+2026-04-04 16:37:45,094 [INFO]     sort=relevance -> 84 new (total: 6930)
+2026-04-04 16:38:52,958 [INFO]     sort=new -> 22 new (total: 6952)
+2026-04-04 16:38:52,958 [INFO]   Searching r/artificial for 'Claude Code'...
+2026-04-04 16:39:18,563 [WARNING] HTTP 500 for https://www.reddit.com/r/artificial/search.json (attempt 1/3)
+2026-04-04 16:39:52,142 [INFO]     sort=relevance -> 15 new (total: 6967)
+2026-04-04 16:40:44,428 [INFO]     sort=new -> 0 new (total: 6967)
+2026-04-04 16:40:44,428 [INFO]   Searching r/artificial for 'Anthropic'...
+2026-04-04 16:41:48,954 [INFO]     sort=relevance -> 121 new (total: 7088)
+2026-04-04 16:42:52,233 [INFO]     sort=new -> 34 new (total: 7122)
+2026-04-04 16:42:52,234 [INFO]   Searching r/artificial for '#QuitGPT'...
+2026-04-04 16:43:19,244 [INFO]     sort=relevance -> 66 new (total: 7188)
+2026-04-04 16:43:45,917 [INFO]     sort=new -> 0 new (total: 7188)
+2026-04-04 16:43:45,918 [INFO]   Searching r/LocalLLaMA for 'Claude'...
+2026-04-04 16:44:49,560 [INFO]     sort=relevance -> 218 new (total: 7406)
+2026-04-04 16:45:53,717 [INFO]     sort=new -> 189 new (total: 7595)
+2026-04-04 16:45:53,717 [INFO]   Searching r/LocalLLaMA for 'Claude AI'...
+2026-04-04 16:46:59,369 [INFO]     sort=relevance -> 160 new (total: 7755)
+2026-04-04 16:48:03,484 [INFO]     sort=new -> 124 new (total: 7879)
+2026-04-04 16:48:03,484 [INFO]   Searching r/LocalLLaMA for 'Claude vs ChatGPT'...
+2026-04-04 16:49:10,147 [INFO]     sort=relevance -> 151 new (total: 8030)
+2026-04-04 16:50:21,606 [INFO]     sort=new -> 94 new (total: 8124)
+2026-04-04 16:50:21,607 [INFO]   Searching r/LocalLLaMA for 'Claude Code'...
+2026-04-04 16:51:42,673 [INFO]     sort=relevance -> 83 new (total: 8207)
+2026-04-04 16:52:50,778 [INFO]     sort=new -> 23 new (total: 8230)
+2026-04-04 16:52:50,779 [INFO]   Searching r/LocalLLaMA for 'Anthropic'...
+2026-04-04 16:53:57,240 [INFO]     sort=relevance -> 150 new (total: 8380)
+2026-04-04 16:55:02,378 [INFO]     sort=new -> 115 new (total: 8495)
+2026-04-04 16:55:02,379 [INFO]   Searching r/LocalLLaMA for '#QuitGPT'...
+2026-04-04 16:56:12,388 [INFO]     sort=relevance -> 216 new (total: 8711)
+2026-04-04 16:57:20,677 [INFO]     sort=new -> 56 new (total: 8767)
+2026-04-04 16:57:20,678 [INFO]   Searching r/singularity for 'Claude'...
+2026-04-04 16:58:27,632 [INFO]     sort=relevance -> 199 new (total: 8966)
+2026-04-04 16:59:32,981 [INFO]     sort=new -> 145 new (total: 9111)
+2026-04-04 16:59:32,981 [INFO]   Searching r/singularity for 'Claude AI'...
+2026-04-04 17:00:46,558 [INFO]     sort=relevance -> 130 new (total: 9241)
+2026-04-04 17:02:08,054 [INFO]     sort=new -> 86 new (total: 9327)
+2026-04-04 17:02:08,055 [INFO]   Searching r/singularity for 'Claude vs ChatGPT'...
+2026-04-04 17:03:15,297 [INFO]     sort=relevance -> 143 new (total: 9470)
+2026-04-04 17:04:24,677 [INFO]     sort=new -> 80 new (total: 9550)
+2026-04-04 17:04:24,678 [INFO]   Searching r/singularity for 'Claude Code'...
+2026-04-04 17:05:30,426 [INFO]     sort=relevance -> 70 new (total: 9620)
+2026-04-04 17:06:38,406 [INFO]     sort=new -> 40 new (total: 9660)
+2026-04-04 17:06:38,407 [INFO]   Searching r/singularity for 'Anthropic'...
+2026-04-04 17:07:45,536 [INFO]     sort=relevance -> 130 new (total: 9790)
+2026-04-04 17:08:52,374 [INFO]     sort=new -> 49 new (total: 9839)
+2026-04-04 17:08:52,374 [INFO]   Searching r/singularity for '#QuitGPT'...
+2026-04-04 17:09:46,650 [INFO]     sort=relevance -> 172 new (total: 10011)
+2026-04-04 17:10:39,280 [INFO]     sort=new -> 0 new (total: 10011)
+2026-04-04 17:10:39,281 [INFO] 
+[Done] Total unique posts collected: 10011
+2026-04-04 17:10:39,282 [INFO] 
+Writing reddit_claude_data.csv...
+2026-04-04 17:10:39,650 [INFO] CSV written: 10011 rows
+2026-04-04 17:10:39,650 [INFO] Building summary...
+2026-04-04 17:10:39,672 [INFO] Writing reddit_summary.json...
+2026-04-04 17:10:39,676 [INFO] 
+============================================================
+2026-04-04 17:10:39,676 [INFO] SUMMARY
+2026-04-04 17:10:39,676 [INFO] ============================================================
+2026-04-04 17:10:39,677 [INFO] Total unique posts: 10011
+2026-04-04 17:10:39,677 [INFO] Date range: 2016-02-21 21:13:35 UTC → 2026-04-04 11:09:20 UTC
+2026-04-04 17:10:39,678 [INFO] By subreddit:
+2026-04-04 17:10:39,679 [INFO]   r/ChatGPT              2456 posts
+2026-04-04 17:10:39,680 [INFO]   r/ClaudeAI             2207 posts
+2026-04-04 17:10:39,680 [INFO]   r/LocalLLaMA           2153 posts
+2026-04-04 17:10:39,681 [INFO]   r/singularity          1832 posts
+2026-04-04 17:10:39,682 [INFO]   r/artificial           1363 posts
+2026-04-04 17:10:39,682 [INFO] 
+Top 5 posts by score:
+2026-04-04 17:10:39,682 [INFO]   1. [84057 pts] r/ChatGPT — I tried the "Create the exact replica of this image, don't change a th
+2026-04-04 17:10:39,683 [INFO]   2. [67514 pts] r/ChatGPT — Turned ChatGPT into the ultimate bro
+2026-04-04 17:10:39,683 [INFO]   3. [66554 pts] r/ChatGPT — Found this on fb with a quarter million likes but I'm not a bit mad.
+2026-04-04 17:10:39,684 [INFO]   4. [58670 pts] r/ChatGPT — Elon continues to openly try (and fail) to manipulate Grok's political
+2026-04-04 17:10:39,684 [INFO]   5. [56171 pts] r/ChatGPT — Will smith is wild for this
+2026-04-04 17:10:39,685 [INFO] ============================================================
+2026-04-04 17:10:39,685 [INFO] Output files: reddit_claude_data.csv, reddit_summary.json
+2026-04-04 17:39:23,319 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-04-04 17:39:23,324 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
