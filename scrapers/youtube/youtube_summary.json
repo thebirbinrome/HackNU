@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "collection_date": "2026-04-04T13:36:10.181601",
+    "total_videos": 943,
+    "total_views": 95610357,
+    "date_range": {
+      "earliest": "2023-05-31T14:29:33Z",
+      "latest": "2026-04-04T07:55:05Z"
+    }
+  },
+  "quota_usage": {
+    "used": 3683,
+    "limit": 10000,
+    "percent": "36.8%"
+  },
+  "by_search_query": {
+    "Claude AI": 100,
+    "Claude vs ChatGPT": 134,
+    "Claude Code": 127,
+    "Anthropic Claude": 105,
+    "Claude AI review": 127,
+    "Claude Sonnet": 141,
+    "Claude coding": 101,
+    "#QuitGPT Claude": 148
+  },
+  "top_20_videos": [
+    {
+      "video_id": "PAtlYn8M4ag",
+      "title": "It’s time to switch from ChatGPT #carterpcs #tech #chatgpt #ai #claude",
+      "channel": "CarterPCs",
+      "views": 3896605,
+      "likes": 134857,
+      "published": "2026-03-04T07:37:23Z",
+      "url": "https://www.youtube.com/watch?v=PAtlYn8M4ag"
+    },
+    {
+      "video_id": "h3AtWdeu_G0",
+      "title": "Bernie vs. Claude",
+      "channel": "Senator Bernie Sanders",
+      "views": 3573531,
+      "likes": 189171,
+      "published": "2026-03-19T22:24:39Z",
+      "url": "https://www.youtube.com/watch?v=h3AtWdeu_G0"
+    },
+    {
+      "video_id": "mBHRPeg8zPU",
+      "title": "Tragic mistake... Anthropic leaks Claude’s source code",
+      "channel": "Fireship",
+      "views": 2544159,
+      "likes": 88672,
+      "published": "2026-04-01T17:27:05Z",
+      "url": "https://www.youtube.com/watch?v=mBHRPeg8zPU"
+    },
+    {
+      "video_id": "x2WtHZciC74",
+      "title": "Claude 3.7 goes hard for programmers…",
+      "channel": "Fireship",
+      "views": 1927136,
+      "likes": 80555,
+      "published": "2025-02-25T18:27:50Z",
+      "url": "https://www.youtube.com/watch?v=x2WtHZciC74"
+    },
+    {
+      "video_id": "MsQACpcuTkU",
+      "title": "You've Been Using AI the Hard Way (Use This Instead)",
+      "channel": "NetworkChuck",
+      "views": 1874699,
+      "likes": 66363,
+      "published": "2025-10-28T15:22:52Z",
+      "url": "https://www.youtube.com/watch?v=MsQACpcuTkU"
+    },
+    {
+      "video_id": "HyzlYwjoXOQ",
+      "title": "Claude's Model Context Protocol is here... Let's test it",
+      "channel": "Fireship",
+      "views": 1321004,
+      "likes": 45392,
+      "published": "2025-03-31T15:00:31Z",
+      "url": "https://www.youtube.com/watch?v=HyzlYwjoXOQ"
+    },
+    {
+      "video_id": "Uc18mso08Ro",
+      "title": "I Accidentally Turned Claude Into a Hacker...",
+      "channel": "NetworkChuck",
+      "views": 1238076,
+      "likes": 42636,
+      "published": "2025-09-26T17:49:35Z",
+      "url": "https://www.youtube.com/watch?v=Uc18mso08Ro"
+    },
+    {
+      "video_id": "T2bd1kGEISo",
+      "title": "Optimized Vibecoding 💡 Google Antigravity + Claude Code + Testsprite #agent #ai #vibecoding",
+      "channel": "Wanderloots",
+      "views": 1103022,
+      "likes": 37562,
+      "published": "2025-12-18T22:32:54Z",
+      "url": "https://www.youtube.com/watch?v=T2bd1kGEISo"
+    },
+    {
+      "video_id": "97uW83G6Q2Y",
+      "title": "Claude AI Built This entire Website in SECONDS!",
+      "channel": "Varun Mayya",
+      "views": 1045835,
+      "likes": 32643,
+      "published": "2025-03-04T19:30:00Z",
+      "url": "https://www.youtube.com/watch?v=97uW83G6Q2Y"
+    },
+    {
+      "video_id": "6eBSHbLKuN0",
+      "title": "Mastering Claude Code in 30 minutes",
+      "channel": "Anthropic",
+      "views": 1031712,
+      "likes": 18033,
+      "published": "2025-05-22T23:32:37Z",
+      "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0"
+    },
+    {
+      "video_id": "QoQBzR1NIqI",
+      "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
+      "channel": "Nick Saraev",
+      "views": 1022829,
+      "likes": 33072,
+      "published": "2026-02-12T17:14:59Z",
+      "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
+    },
+    {
+      "video_id": "wfeiCZK0mNs",
+      "title": "Anthropic just released the real Claude Bot...",
+      "channel": "Fireship",
+      "views": 999774,
+      "likes": 31146,
+      "published": "2026-03-26T18:11:51Z",
+      "url": "https://www.youtube.com/watch?v=wfeiCZK0mNs"
+    },
+    {
+      "video_id": "0fpUQN0a20Q",
+      "title": "How to transfer all of your memories from ChatGPT to Claude… #c#carterpcstech #chatgpt #claude #ai",
+      "channel": "CarterPCs",
+      "views": 953056,
+      "likes": 31173,
+      "published": "2026-03-04T07:37:40Z",
+      "url": "https://www.youtube.com/watch?v=0fpUQN0a20Q"
+    },
+    {
+      "video_id": "AJpK3YTTKZ4",
+      "title": "Introducing Claude Code",
+      "channel": "Anthropic",
+      "views": 908172,
+      "likes": 20430,
+      "published": "2025-02-24T18:29:13Z",
+      "url": "https://www.youtube.com/watch?v=AJpK3YTTKZ4"
+    },
+    {
+      "video_id": "aAPpQC-3EyE",
+      "title": "Anthropic CEO warns that without guardrails, AI could be on dangerous path",
+      "channel": "60 Minutes",
+      "views": 884993,
+      "likes": 11619,
+      "published": "2025-11-17T04:02:54Z",
+      "url": "https://www.youtube.com/watch?v=aAPpQC-3EyE"
+    },
+    {
+      "video_id": "ZeWfksNXlbU",
+      "title": "Claude COWORK Clearly Explained (& how to use it for beginners)",
+      "channel": "Eliot Prince",
+      "views": 830782,
+      "likes": 10898,
+      "published": "2026-02-16T17:18:45Z",
+      "url": "https://www.youtube.com/watch?v=ZeWfksNXlbU"
+    },
+    {
+      "video_id": "Ll1UyM8kBNc",
+      "title": "This is why I quit Cursor and switched to Claude Code",
+      "channel": "onjsdev",
+      "views": 790269,
+      "likes": 9524,
+      "published": "2025-07-24T16:20:08Z",
+      "url": "https://www.youtube.com/watch?v=Ll1UyM8kBNc"
+    },
+    {
+      "video_id": "SUysp3sJHbA",
+      "title": "Claude Code Tutorial #1 - Introduction & Setup",
+      "channel": "Net Ninja",
+      "views": 741385,
+      "likes": 6847,
+      "published": "2025-08-21T07:59:02Z",
+      "url": "https://www.youtube.com/watch?v=SUysp3sJHbA"
+    },
+    {
+      "video_id": "JMiz4wtZ1yc",
+      "title": "ChatGPT vs Claude vs Gemini Make Subway Surfers From Scratch",
+      "channel": "HollowWolf",
+      "views": 727801,
+      "likes": 22379,
+      "published": "2026-01-13T19:00:20Z",
+      "url": "https://www.youtube.com/watch?v=JMiz4wtZ1yc"
+    },
+    {
+      "video_id": "D_YzcH0VsGY",
+      "title": "The most powerful AI Agent I’ve ever used in my life",
+      "channel": "Dan Martell",
+      "views": 721588,
+      "likes": 19802,
+      "published": "2026-02-26T14:00:16Z",
+      "url": "https://www.youtube.com/watch?v=D_YzcH0VsGY"
+    }
+  ],
+  "top_10_channels": [
+    {
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "channel_name": "Anthropic",
+      "video_count": 29
+    },
+    {
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "Nate Herk | AI Automation",
+      "video_count": 25
+    },
+    {
+      "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+      "channel_name": "Julian Goldie SEO",
+      "video_count": 21
+    },
+    {
+      "channel_id": "UCoy6cTJ7Tg0dqS-DI-_REsA",
+      "channel_name": "Chase AI",
+      "video_count": 21
+    },
+    {
+      "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg",
+      "channel_name": "Alex Finn",
+      "video_count": 14
+    },
+    {
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw",
+      "channel_name": "WorldofAI",
+      "video_count": 13
+    },
+    {
+      "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "channel_name": "Jack Roberts",
+      "video_count": 10
+    },
+    {
+      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "Sabrina Ramonov 🍄",
+      "video_count": 9
+    },
+    {
+      "channel_id": "UClXAalunTPaX1YV185DWUeg",
+      "channel_name": "Vaibhav Sisinty",
+      "video_count": 9
+    },
+    {
+      "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
+      "channel_name": "The AI Advantage",
+      "video_count": 9
+    }
+  ]
+}
