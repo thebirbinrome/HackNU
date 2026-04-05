@@ -69,3 +69,22 @@ Terminal insights include much more data, such as viral density peaks, most enga
 - **Resume support** — existing CSV loaded on restart, deduplication by ID
 - **No heavy NLP deps** — built-in stop word list, no NLTK/spaCy required
 - **Graceful failure** — retries, back-off, partial data saved on interrupt
+
+
+## AI Usage & Validation
+This project was developed with the assistance of AI code generation tools (LLMs).
+
+### What was AI-generated
+- Initial scraper architecture (request loops, pagination, batching logic)
+- Data parsing functions for Reddit JSON and YouTube API responses
+- Chart generation templates (matplotlib / seaborn)
+- Basic NLP logic (tokenization, stop-word filtering, word frequency comparison)
+
+### What we manually validated
+Each component was tested and verified:
+
+**1. Data correctness** Cross-checked sampled Reddit posts and YouTube videos manually in browser
+
+**2. Edge cases** Tested handling of deleted posts (`[deleted]`, `[removed]`) and resolved HTTP 429 errors
+
+**3. Rate limiting & robustness** Simulated and made up for API limits (Reddit 429 / YouTube quota exhaustion)
