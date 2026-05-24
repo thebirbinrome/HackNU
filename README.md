@@ -30,7 +30,7 @@ python reddit_scraper.py --analyze    # charts from existing data
 python reddit_scraper.py              # full scrape + analyze
 
 # YouTube (needs free API key)
-Feel free to use our own API key! ('AIzaSyC4zTM4oYECLXD3XQOeHGVDYVFzYEvNBfg')
+
 pip install google-api-python-client matplotlib seaborn pandas
 export YOUTUBE_API_KEY='your-key'
 or
